@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Студия танцев 
+        </title>
+        <meta name="description" content="Блочная верстка HTML5">
+        <style>
+            div {vertical-align: baseline;}
+            * {box-sizing: border-box;}
+            #header h1 {
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 30px 30px 30px 10px;
+                clear: both;
+                text-align: center;
+                text-shadow: 5px 4px 3px #666;
+             }
+             #nav {background-color: rgb(216, 191, 216);
+                border-top: 1px solid #888;
+                border-bottom: 1px solid #888;
+                }
+            #nav ul:after {content: " ";
+                display: table;
+                clear: both;
+                }
+            #nav li {float: left;
+                list-style: none;   
+                }
+            #nav a {display: block;
+                color: black;
+                padding: 10px 25px;
+                text-decoration: none;
+                border-right: 3px solid rgb(1, 25, 68);
+                font-size: xx-large;
+                }
+            #nav li:last-child a {border-right: none; 
+                }
+            #wrapper {
+                min-height: 500px;
+                background-image: url(https://img.freepik.com/premium-photo/silhouette-woman-with-purple-pink-lines_1064589-22443.jpg?semt=ais_hybrid&w=740); 
+background-size: 100% 100%;  
+            }
+            #sidebar-left {
+                padding: 10px 10px 10px 10px;
+                float: left;
+                width: 25%;}
+            #sidebar-right {
+                padding: 10px 10px 10px 10px;
+                float: right;
+                width: 25%;}
+            #main {
+                padding: 10px 10px 10px 10px;
+                margin-left: 27%;
+                margin-right: 27%;
+                min-height: 500px;
+                background-color: rgba(255, 255, 255, 0.75);
+                /*float: left;*/
+                }
+            #footer {
+                background-color: rgb(221, 160, 221);
+                clear: both;
+                padding: 15px 50px 15px 50px;
+                text-align: center;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Студия танцев "Luxxx"</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="about.html">О студии</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-left">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="about.html">О студии</a></li>
+                </ul>
+            </div>
+            <div id="sidebar-right">
+                <p>События студии танцев «Luxxx»</p>
+ <p>1. «Танцевальный марафон для новичков»</p>
+ <p>2. Мастер‑класс от приглашённого хореографа</p>
+ <p>3. Вечер открытых дверей «Погружение в Luxxx»</p>
+ <p>4. Танцевальный баттл «Luxxx Battle Night»</p>
+
+             </div>
+            <div id="main">
+                <p>Студия танцев «Luxxx»: искусство движения в атмосфере роскоши</p>
+                <p>«Luxxx» — это не просто танцы, это стиль жизни для тех, кто ценит изысканность, энергию и безупречное мастерство.</p>
+                <p>Погрузитесь в мир, где каждое движение становится произведением искусства, а атмосфера студии подчёркивает ваш статус.</p>
+                <p>Присоединяйтесь к «Luxxx» — танцуйте с роскошью!</p>
+                <p>Запишитесь на персональную консультацию и получите скидку 20 % на первый месяц занятий.</p>
+                            </div>
+        </div>
+        <div id="footer">Записывайтесь онлайн или звоните: +7 (980) 367-90-99</div>
+    </body>
+</html>   
